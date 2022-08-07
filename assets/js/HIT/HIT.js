@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';
+import Jumbo from './Jumbo';
 
 class App extends Component {
 	constructor() {
@@ -15,6 +16,10 @@ class App extends Component {
 		return (
 			<div>
 				<Header />
+				<section>
+					{/* BIG JUMBO SECTION */}
+					<Jumbo />
+				</section>
 			</div>
 		);
 	}

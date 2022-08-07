@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Header extends Component {
+export default class Jumbo extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -11,7 +11,7 @@ export default class Header extends Component {
 	// async test() {}
 	render() {
 		return (
-			<header>
+			<section className="jumbo">
 				<div>Logo</div>
 				<nav>
 					<a href="#">Case Studies</a>
@@ -19,7 +19,7 @@ export default class Header extends Component {
 					<a href="#">About Us</a>
 					<a href="#">Contact</a>
 				</nav>
-			</header>
+			</section>
 		);
 	}
 }

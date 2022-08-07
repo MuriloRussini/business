@@ -1,12 +1,18 @@
 header{
-  background-color: green;
-  color: white;
+  background-color: $darkblue;
+  color: $offwhite;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
   nav{
     a{
       text-decoration: none;
-      color: white;
+      color: $offwhite;
+      margin-right: 1.2rem;
+      font-weight: 300;
+      font-size: 1.1rem;
       &:hover{
-        color: pink;
+        color: $pink;
       }
     }
   }
