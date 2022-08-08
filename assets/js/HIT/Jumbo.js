@@ -15,7 +15,14 @@ export default class Jumbo extends Component {
 				<ul className="jumbo-slider__container">
 					<li className="jumbo-slider__slide">
 						<div className="jumbo-slider__slide-bg">
-							<img src="https://www.suno.com.br/wp-content/uploads/2019/01/out-of-the-money-1024x683.jpg"></img>
+							<iframe
+								allowfullscreen
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/_JaYgiqOZWU?autoplay=1&mute=1"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							></iframe>
 						</div>
 						<div className="jumbo-slider__info-container">
 							<div className="jumbo-slider__info">
@@ -25,6 +32,9 @@ export default class Jumbo extends Component {
 									YADAADAYADYAYAYAYAYAYASDYAAYAYAYAYAYA
 								</p>
 							</div>
+						</div>
+						<div className="jumbo-slider__slide-timeline">
+							<div className="jumbo-slider__slide-line"></div>
 						</div>
 					</li>
 					<li className="jumbo-slider__slide">
@@ -40,10 +50,15 @@ export default class Jumbo extends Component {
 								</p>
 							</div>
 						</div>
+						<div className="jumbo-slider__slide-timeline">
+							<div className="jumbo-slider__slide-line"></div>
+						</div>
 					</li>
 					<li className="jumbo-slider__slide">
 						<div className="jumbo-slider__slide-bg">
-							<img src="https://www.suno.com.br/wp-content/uploads/2019/01/out-of-the-money-1024x683.jpg"></img>
+							<img src="https://www.suno.com.br/wp-content/uploads/2019/01/out-of-the-money-1024x683.jpg">
+								{/* I believe I'll have to make a component for this bs to work */}
+							</img>
 						</div>
 						<div className="jumbo-slider__info-container">
 							<div className="jumbo-slider__info">
@@ -53,6 +68,9 @@ export default class Jumbo extends Component {
 									YADAADAYADYAYAYAYAYAYASDYAAYAYAYAYAYA
 								</p>
 							</div>
+						</div>
+						<div className="jumbo-slider__slide-timeline">
+							<div className="jumbo-slider__slide-line"></div>
 						</div>
 					</li>
 				</ul>
