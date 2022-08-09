@@ -1,4 +1,15 @@
 import React, { Component } from 'react';
+let imgs = [
+	'https://www.suno.com.br/wp-content/uploads/2019/01/out-of-the-money-1024x683.jpg'
+];
+
+const imgURL = () => {
+	<div>
+		<img src={imgs[0]} />
+	</div>;
+};
+
+// maybe try using the variable name in the imgs[] to fix when more images being used
 
 export default class Jumbo extends Component {
 	constructor() {
@@ -38,9 +49,7 @@ export default class Jumbo extends Component {
 						</div>
 					</li>
 					<li className="jumbo-slider__slide">
-						<div className="jumbo-slider__slide-bg">
-							<img src="https://www.suno.com.br/wp-content/uploads/2019/01/out-of-the-money-1024x683.jpg"></img>
-						</div>
+						<div className="jumbo-slider__slide-bg" style={imgURL}></div>
 						<div className="jumbo-slider__info-container">
 							<div className="jumbo-slider__info">
 								<div className="jumbo-slider__slide-number">02</div>
